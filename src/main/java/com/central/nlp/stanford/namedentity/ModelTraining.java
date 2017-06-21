@@ -13,14 +13,14 @@ import java.util.Properties;
 public class ModelTraining {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        String prop = "/home/glerin/workspace/projects/nlp/models/stanford/data/nerprop.prop";
+        String prop = "/home/dxuser/workspace/works/nlp/nlp/models/stanford/data/nerprop.prop";
         Properties props = StringUtils.propFileToProperties(prop);
 //        String to = props.getProperty("serializeTo");
 //        props.setProperty("serializeTo", "models/stanford/data/training_datamodel.ser.gz");
         SeqClassifierFlags flags = new SeqClassifierFlags(props);
         CRFClassifier<CoreLabel> crf = new CRFClassifier<CoreLabel>(flags);
         crf.train();
-        crf.serializeClassifier("models/stanford/data/training_datamodel1110.ser.gz");
+//        crf.serializeClassifier("models/stanford/data/training_datamodel1110.ser.gz");
 
     }
 }
