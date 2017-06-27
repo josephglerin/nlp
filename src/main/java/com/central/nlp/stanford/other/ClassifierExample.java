@@ -44,7 +44,7 @@ public class ClassifierExample {
         trainingData.add(makeStopLights(RED, GREEN));
         trainingData.add(makeStopLights(RED, GREEN));
         trainingData.add(makeStopLights(RED, RED));
-        // Create a test set
+        // Create a init set
         Datum<String,String> workingLights = makeStopLights(GREEN, RED);
         Datum<String,String> brokenLights = makeStopLights(RED, RED);
         // Build a classifier factory
