@@ -61,6 +61,21 @@
             <artifactId>swagger2html</artifactId>
             <version>1.0.7</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.sree.textbytes</groupId>
+            <artifactId>jtopia</artifactId>
+            <version>0.0.3</version>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>com.sr</groupId>-->
+            <!--&lt;!&ndash;<groupId>com.sree.textbytes</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>jtopia</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>0.0.3</version>&ndash;&gt;-->
+        <!--</dependency>-->
+
+
     </dependencies>
 
     <repositories>
